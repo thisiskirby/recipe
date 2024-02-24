@@ -49,3 +49,78 @@ table {
 	border-spacing: 0;
 }
 /*END OF CSS RESET CODE*/
+
+/*ROOT FOR COLORS & FONTS*/
+:root{
+    /*COLORS*/
+    --nearblack: #0d0d0d;
+    --graywhite: #f2f2f2;
+    --darkteal: #7abfbf;
+    --lightteal: rgba(122, 191,191,.5);
+    --redorange: #eb5428;
+
+    /*FONTS*/
+    --allfont: "Bebas Neue", "Montserrat", sans-serif;
+    --beba: "Bebas Neue", sans-serif;
+    --montserrat: "Montserrat", sans-serif;
+}
+
+/*SMALL SCREEN*/
+html{
+    background-color: var(--darkteal);
+}
+body{
+    width: 414px;
+    margin: 0 auto;
+    font-family: var(--allfont);
+    background-color: var(--graywhite);
+}
+header{
+    width: 414px;
+}
+header img{
+    width: 414px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: var(--bebas);
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: var(--bebas);
+}
+h3{
+    font-size: 25px;
+    font-family: var(--bebas);
+}
+nav a, nav span, menu li, #social li, footer{
+    font-size: 20px;
+    font-family: var(--bebas);
+}
+p, dd, li, nav, input{
+    font-size: 16px;
+    font-family: var(--montserrat);
+}
+dt{
+    font-size: 16px;
+    font-family: var(--montserrat);
+    font-weight: bold;
+}
+menu li{
+    list-style-type: none;
+}
+menu a{
+    text-decoration: none;
+    color: var(--redorange);
+}
+#ingredients li{
+    list-style-type: disc;
+}
+#directions li{
+    list-style-type: decimal;
+}
+#search label{
+    visibility: hidden;
+}
