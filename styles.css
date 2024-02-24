@@ -67,7 +67,7 @@ table {
 
 /*SMALL SCREEN*/
 html{
-    background-color: var(--darkteal);
+    background-color: var(--lightteal);
 }
 body{
     width: 414px;
@@ -111,16 +111,67 @@ dt{
 menu li{
     list-style-type: none;
 }
-menu a{
+a{
     text-decoration: none;
     color: var(--redorange);
 }
 #ingredients li{
-    list-style-type: disc;
+    list-style-type: square;
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    left: 15px;
 }
 #directions li{
     list-style-type: decimal;
 }
-#search label{
+#search label, nav h2, #search h3, #social h2, #social h3{
     visibility: hidden;
+    height: 1px;
+}
+#sidedishes svg{
+    fill: var(--redorange);
+}
+#rice svg:last-child{
+    fill: #fff;
+}
+#tortillas svg:last-child{
+    fill: #fff;
+}
+#guac svg:last-child{
+    fill: #fff;
+}
+menu li{
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+   
+}
+menu svg{
+    display: flex;
+    position: relative;
+    top: -60px; 
+}
+menu{
+    text-align: center;
+}
+h1{
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    padding: 10px;
+}
+h2{
+    margin: 10px;
+}
+#details dl{
+    padding: 0px 0px 5px 10px;
+    text-align: left;
+    display: flex;
+}
+#details dd{
+    padding: 0px 0px 0px 15px;
 }
