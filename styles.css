@@ -161,7 +161,7 @@ h1{
     margin: 10px;
     padding: 10px;
 }
-p{
+header p{
     padding: 10px;
 }
 h2{
@@ -174,4 +174,13 @@ h2{
 }
 #details dd{
     padding: 0px 0px 0px 15px;
+}
+#directions li{
+    padding: 5px;
+    margin: 10px;
+    position: relative;
+    left: 15px;
+}
+#sidedishes{
+    background-color: var(--darkteal);
 }
