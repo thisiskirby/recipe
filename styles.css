@@ -77,6 +77,7 @@ body{
 }
 header{
     width: 414px;
+    padding-top: 100px;
 }
 header img{
     width: 414px;
@@ -183,4 +184,31 @@ h2{
 }
 #sidedishes{
     background-color: var(--darkteal);
+    padding: 10px;
+}
+#sidedishes img{
+    width: 100%;
+}
+#rice{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+#rice img{
+    grid-column: 1/2;
+    grid-row: 1/5;
+    width: 100%;
+}
+#rice h3{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+#rice p{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+#rice p:last-child{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    font-weight: bold;
 }
