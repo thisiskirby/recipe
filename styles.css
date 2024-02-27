@@ -77,7 +77,6 @@ body{
 }
 header{
     width: 414px;
-    padding-top: 100px;
 }
 header img{
     width: 414px;
@@ -184,31 +183,103 @@ h2{
 }
 #sidedishes{
     background-color: var(--darkteal);
-    padding: 10px;
 }
-#sidedishes img{
-    width: 100%;
+#sidedishes h2{
+    padding: 10px;
 }
 #rice{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 10px
 }
 #rice img{
+    width: 80%;
     grid-column: 1/2;
-    grid-row: 1/5;
-    width: 100%;
+    grid-row: 1/4;
 }
 #rice h3{
     grid-column: 2/4;
-    grid-row: 1/2;
+    grid-row: 1/2; 
 }
 #rice p{
     grid-column: 2/4;
     grid-row: 2/3;
 }
-#rice p:last-child{
+#rice h4, #rice dd{
+    visibility: hidden;
+    height: 0px;
+}
+.ratings{
     grid-column: 2/4;
     grid-row: 3/4;
-    font-weight: bold;
+}
+#salsa{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 10px
+}
+#salsa img{
+    width: 80%;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+#salsa h3{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+#salsa p{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+#salsa h4, #salsa dd{
+    visibility: hidden;
+    height: 0px;
+}
+#guac{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 10px
+}
+#guac img{
+    width: 80%;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+#guac h3{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+#guac p{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+#guac h4, #guac dd{
+    visibility: hidden;
+    height: 0px;
+}
+#tortillas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 10px
+}
+#tortillas img{
+    width: 80%;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+#tortillas h3{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+#tortillas p{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+#tortillas h4, #tortillas dd{
+    visibility: hidden;
+    height: 0px;
 }
