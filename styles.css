@@ -420,7 +420,7 @@ nav li:last-child{
 #copyright img{
     transform: scale(.5); 
     position: relative; 
-    top: -100px;
+    top: -150px;
     right: 40px;
 }
 #copyright h3:first-child{
@@ -430,10 +430,11 @@ nav li:last-child{
 #copyright h3{
     text-align: center;
     position: relative;
-    top: 430px;
+    top: 300px;
 }
 footer{
-    max-height: 600px;
+    height: 500px;
+    overflow: hidden;
 }
 nav img{
     visibility: hidden;
@@ -541,4 +542,22 @@ nav img{
     #tortillas{
         grid-column: 2/3;
         grid-row: 3/4;
+    }
+    #social li{
+        position: relative;
+        left: 160px;
+    }
+    #copyright img{
+        position: relative;
+        left: -75px;
+        top: -250px;
+    }
+    #copyright h3{
+        position: relative;
+        left: -215px;
+        top: 200px;
+    }
+    footer{
+        height: 400px;
+        overflow-y: hidden;
     }
