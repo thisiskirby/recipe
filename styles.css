@@ -420,8 +420,8 @@ nav li:last-child{
 #copyright img{
     transform: scale(.5); 
     position: relative; 
-    top: -150px;
-    right: 40px;
+    top: -120px;
+    right: 0px;
 }
 #copyright h3:first-child{
     visibility: hidden;
@@ -548,16 +548,125 @@ nav img{
         left: 160px;
     }
     #copyright img{
+        width: 50%;
         position: relative;
-        left: -75px;
-        top: -250px;
+        left: 0px;
+        top: -210px;
     }
     #copyright h3{
         position: relative;
-        left: -215px;
-        top: 200px;
+        left: -190px;
+        top: 160px;
     }
     footer{
         height: 400px;
         overflow-y: hidden;
+    }  
+}
+/*LARGE SCREEN*/
+@media screen and (min-width: 1280px){
+    html{
+        width: 1280px;
     }
+    body{
+        width: 1280px;
+    }
+    nav{
+        width: 1280px;
+    }
+    header{
+        width: 1280px;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        height: 45px;
+    }
+    #search{
+        position: absolute;
+        z-index: 97;
+    }
+    #search input{
+        position: relative;
+        top: 100px;
+        left: 400px;
+    }
+    #search button{
+        position: relative;
+        top: 113px;
+        left: 397px;
+    }
+    menu li{
+        display: flex;
+        justify-content: left;
+        border-style: solid;
+    }
+    menu{
+        width: 80px;
+        height: 1152px;
+        background-color: #fff;
+    }
+    .streettacos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #tacos{
+        grid-column: 1/2;
+    }
+    #paragraphs{
+        grid-column: 2/3;
+        line-height: 1.8;
+    }
+    #details{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-color: var(--nearblack);
+        color: var(--darkteal);
+    }
+    #details h2{
+        grid-column: 1/6;
+        grid-row: 1/2;
+    }
+    #sidedishes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 33% 1fr;
+        width: 100%;
+    }
+    #sidedishes h2{
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
+    #rice{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    #salsa{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    #guac{
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    #tortillas{
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+    #copyright h3{
+        position: relative;
+        top: -50px;
+        left: -220px;
+    }
+    #copyright img{
+        position: relative;
+        left: -130px;
+        top: -300px;
+    }
+    #social{
+        position: relative;
+        left: 250px;
+    }
+}
